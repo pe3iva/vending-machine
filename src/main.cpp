@@ -5,6 +5,7 @@ int main(){
     std::cout << "Hello! Pick an item that you want: \n\n";
     std::cout << "List out the prices for each item using the list command\n\n";
 
+    // made an unsigned int so we dont have to worry about breaking the loop in negatives
     unsigned int itemChoice {};
 
 
@@ -18,19 +19,10 @@ int main(){
         std::cin >> itemChoice;
 
         if(itemChoice >= 4294967295){
+            std::cout << "Do not enter numbers bigger than 4294967294. Restart the program.\n";
             break;
         }
 
-        if(itemChoice <= 0 || itemChoice > 10){
-            std::cout << "Wrong number entered. Must be 1 to 12.\n";
-        }
     }
-
-    /*  if the first if statement is met, it exits out of the for loop
-    *   and then make another one
-    *
-    */
-
-
 
 }
