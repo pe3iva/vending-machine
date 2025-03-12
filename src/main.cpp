@@ -32,8 +32,16 @@ int main(){
 
         std::cout << "List of prices for all the items\n\n";
         
-        std::cout << "Cola = 0,73\n";
-        std::cout << "Pepsi = 0,71\n";
+        std::cout << "1. Cola = 0,73\n";
+        std::cout << "2. Pepsi = 0,71\n";
+        std::cout << "3. Chips = 2, 81\n";
+        std::cout << "4. Chicken = 7, 44\n";
+        std::cout << "5. French fries = 1, 32\n";
+        std::cout << "6. Ice cream = 1,09\n";
+        std::cout << "7. Rice = 3,12\n";
+        std::cout << "8. Strawberry = 0,99\n";
+        std::cout << "9. Jam = 0, 86\n";
+        std::cout << "10. Pineapple = 3, 66\n";
     }
 
 
