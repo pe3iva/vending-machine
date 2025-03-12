@@ -25,4 +25,17 @@ int main(){
 
     }
 
+    std::string listCmd {};
+    std::cin >> listCmd;
+
+    if(listCmd == "list"){
+
+        std::cout << "List of prices for all the items\n\n";
+        
+        std::cout << "Cola = 0,73\n";
+        std::cout << "Pepsi = 0,71\n";
+    }
+
+
+
 }
